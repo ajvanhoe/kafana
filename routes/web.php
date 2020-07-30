@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* Switch za jezik */
+Route::get('setlocale/{locale}', function ($locale) {
+  if (in_array($locale, config('app.locales'))) {
+    session(['locale' => $locale]);
+  }
+  return redirect()->back();
+})->name('set.locale');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
