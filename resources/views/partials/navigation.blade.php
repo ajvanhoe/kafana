@@ -8,9 +8,9 @@
         <li><a href="#"><div><i class="icon-map-marker2"></i>@lang('content.menu_contact')</div></a></li>
         
         @if(session('locale') == 'en')
-        <li><a href="{{ route('set.locale', ['locale'=>'sr']) }}"><div><i class="icon-map-marker2"></i>Srpski</div></a></li>
+        <li><a href="{{ route('set.locale', ['locale'=>'sr']) }}"><div><i class="icon-line-flag"></i>Srpski</div></a></li>
         @else
-        <li><a href="{{ route('set.locale', ['locale'=>'en']) }}"><div><i class="icon-map-marker2"></i>English</div></a></li>
+        <li><a href="{{ route('set.locale', ['locale'=>'en']) }}"><div><i class="icon-line-flag"></i>English</div></a></li>
         @endif
 
     </ul>

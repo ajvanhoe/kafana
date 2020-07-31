@@ -42,9 +42,9 @@ return [
 'open_hours_title' => 'Radno Vreme',
 'open_hours_text' => 'Radimo svaki dan, dostava je besplatna za porudžbine preko 1000 din.',
 
-'open_hours_workdays' => 'Ponedeljak-petak: 11-01h',
-'open_hours_saturday' => 'Subota: 12-01h',
-'open_hours_sundays' => 'Nedelja: 12-01h',
+'open_hours_workdays' => '<strong>Ponedeljak-petak:</strong> 11-01h',
+'open_hours_saturday' => '<strong>Subota:</strong> 12-01h',
+'open_hours_sundays' => '<strong>Nedelja:</strong> 12-01h',
 
 'sub_section_menu_title' => 'Naš Meni',
 'sub_section_menu_text' => 'Svakog dana nudimo širok izbor različitih jela za poneti. Kompletan obrok: čorba, salata i glavno jelo.',

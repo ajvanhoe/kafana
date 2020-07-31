@@ -42,9 +42,9 @@ return [
 'open_hours_title' => 'Opening Hours',
 'open_hours_text' => 'We are opened every day and we have a free delivery for orders above 1000 din.',
 
-'open_hours_workdays' => 'Mondays-Fridays: 10AM to 7PM',
-'open_hours_saturday' => 'Saturdays: 11AM to 3PM',
-'open_hours_sundays' => 'Sundays: Closed',
+'open_hours_workdays' => '<strong>Mondays-Fridays:</strong> 10AM to 7PM',
+'open_hours_saturday' => '<strong>Saturdays:</strong> 11AM to 3PM',
+'open_hours_sundays' => '<strong>Sundays:</strong> Closed',
 
 'sub_section_menu_title' => 'Our Buffet Menu',
 'sub_section_menu_text' => 'We offer you variety of domestic Serbian recepies and food from different parts of Serbia.',

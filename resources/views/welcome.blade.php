@@ -23,8 +23,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="{{route('welcome')}}" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo-resto.png" alt="Mrtav Gladan Logo"></a>
-						<a href="{{route('welcome')}}" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Mrtav Gladan Logo"></a>
+						<a href="{{route('welcome')}}" class="standard-logo" data-dark-logo="images/gradimir-logo.png"><img src="images/gradimir-logo.png" alt="Mrtav Gladan Logo"></a>
+						<a href="{{route('welcome')}}" class="retina-logo" data-dark-logo="images/gradimir-logox2.png"><img src="images/gradimir-logox2.png" alt="Mrtav Gladan Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation -->
@@ -206,8 +206,8 @@
 						<i class="i-plain i-xlarge icon-food2 divcenter bottommargin"></i>
 
 						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInUp">Brilliant Service</h2>
-							<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">"Momentum poverty tackling fellows social impact. Expanding community ownership, future affiliate protect civil society. Bloomberg."</p>
+							<h2 data-animate="fadeInUp">@lang('content.service_section_headline')</h2>
+							<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">@lang('content.service_section_text')</p>
 						</div>
 
 					</div>
@@ -223,74 +223,23 @@
 				
 				<div class="clear my-2"></div>
 
-				<div class="section nobg topmargin-lg nobottommargin">
-					<div class="container clearfix">
-
-						<div class="col_half nobottommargin center">
-
-							<img src="images/restaurant/20.png" alt="Image" data-animate="fadeInLeft">
-
-						</div>
-
-						<div class="col_half nobottommargin col_last">
-
-							<div class="heading-block" style="padding-top: 40px;">
-
-								<h2>Fresh from the Garden.</h2>
-								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
-
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
-
-							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">View Recipes</a>
-
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section nobg notopmargin noborder bottommargin-sm">
-					<div class="container clearfix">
-
-						<div class="col_half nobottommargin">
-
-							<div class="heading-block" style="padding-top: 40px;">
-
-								<h2>You'll be Lovin' It.</h2>
-								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
-
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
-
-							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">More Details</a>
-
-						</div>
-
-						<div class="col_half bottommargin-sm center col_last">
-
-							<img src="images/restaurant/22.png" alt="Image" data-animate="fadeInRight">
-
-						</div>
-
-					</div>
-				</div>
+                <!-- Subcontent -->
+                <!-- //include -->
 
 				<div class="container clearfix">
 
 					<div class="col_one_fourth nobottommargin">
 
 						<div class="fancy-title title-border">
-							<h4>Opening Hours</h4>
+							<h4>@lang('content.open_hours_title')</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur facilis cumque amet suscipit odio.</p>
+						<p>@lang('content.open_hours_text')</p>
 
 						<ul class="iconlist nobottommargin">
-							<li><i class="icon-time color"></i> <strong>Mondays-Fridays:</strong> 10AM to 7PM</li>
-							<li><i class="icon-time color"></i> <strong>Saturdays:</strong> 11AM to 3PM</li>
-							<li><i class="icon-time text-danger"></i> <strong>Sundays:</strong> Closed</li>
+							<li><i class="icon-time color"></i> @lang('content.open_hours_workdays')</li>
+							<li><i class="icon-time color"></i> @lang('content.open_hours_saturday')</li>
+							<li><i class="icon-time text-danger"></i> @lang('content.open_hours_sundays')</li>
 						</ul>
 
 					</div>
@@ -298,19 +247,19 @@
 					<div class="col_one_fourth nobottommargin">
 
 						<div class="fancy-title title-border">
-							<h4>Our Buffet Menu</h4>
+							<h4>@lang('content.sub_section_menu_title')</h4>
 						</div>
 
-						<p>Our Buffet Menu is unique &amp; filling consisting of different types of 5 Starters, 12 Full-Course Dishes, 9 Desserts &amp; 3 Mocktails which you are gonna relish to the core.</p>
+						<p>@lang('content.sub_section_menu_text')</p>
 
-						<a href="#" class="button button-rounded button-dark noleftmargin"><i class="icon-file-alt"></i> Browse Menu</a>
+						<a href="#" class="button button-rounded button-dark noleftmargin"><i class="icon-file-alt"></i> @lang('content.sub_section_menu_button')</a>
 
 					</div>
 
 					<div class="col_half nobottommargin col_last">
 
 						<div class="fancy-title title-border">
-							<h4>Gallery</h4>
+							<h4>@lang('content.sub_section_gallery_title')</h4>
 						</div>
 
 						<div class="masonry-thumbs grid-4 clearfix" data-lightbox="gallery" style="width: 100.3%;">
@@ -328,116 +277,15 @@
 
 				</div>
 
-				<div class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url('images/restaurant/4.jpg'); padding: 80px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-					<div class="container clearfix">
-						<div class="col_three_fifth nobottommargin">
-
-							<div class="heading-block nobottomborder">
-								<h3>Reviews</h3>
-							</div>
-
-							<div class="fslider restaurant-reviews" data-arrows="false" data-animation="slide">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide">
-											<p class="lead">"Globalization fairness non-partisan visionary, institutions Aga Khan resolve. Results public-private partnerships, international development elevate scalable."</p>
-											<span><strong>John Doe</strong>, New York Magazine</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i>
-										</div>
-										<div class="slide">
-											<p class="lead">"Medicine; experience in the field climate change achieve voice public-private partnerships process our ambitions. Sanitation."</p>
-											<span><strong>Mary Jane</strong>, Chicago News</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i>
-										</div>
-										<div class="slide">
-											<p class="lead">"Healthcare forward-thinking public service, social innovation making progress. Arab Spring social analysis, equality treatment, diversification."</p>
-											<span><strong>Luis Frank</strong>, France</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<style>
-								.restaurant-reviews .flex-control-nav {
-									top: auto;
-									bottom: 25px;
-								}
-							</style>
-
-						</div>
-					</div>
-				</div>
+                <!-- Reviews -->
+                @include('partials.reviews')
 
 			</div>
 
 		</section><!-- #content end -->
 
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
-
-					<div class="col_full">
-
-						<div class="heading-block center nobottommargin">
-							<h2>Need to make a Reservation? <a href="tel:+381628238507"><strong>Call +381 62 823 8507</strong></a></h2>
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyrights &copy; 2020 HepekSolutions<br>
-						<!-- <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div> -->
-					</div>
-
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-
-							<a href="tel:+381628238507" class="social-icon si-small si-borderless si-call">
-								<i class="icon-call"></i>
-								<i class="icon-call"></i>
-							</a>
-
-
-							<a href="https://www.facebook.com/pages/category/Restaurant/Kafana-Gradimir-378304965635658" class="social-icon si-small si-borderless si-facebook" target="__blank">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
-
-
-							
-						</div>
-
-						<div class="clear"></div>
-
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
+		<!-- Footer -->
+        @include('partials.footer')
 
 	</div><!-- #wrapper end -->
 
