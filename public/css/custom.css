@@ -11,3 +11,27 @@
 #primary-menu-trigger {
     color:black;
 }
+
+.custom-btn {
+    position: relative;
+    top: 420px;
+}
+
+@media (max-width: 767.98px) {
+
+.hide-sm {
+    display:none;
+}
+
+
+}
+
+
+@media (min-width: 767.98px) {
+
+    .hide-lg {
+        display:none;
+    }
+
+
+}

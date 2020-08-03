@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* welcome */
 Route::get('/', function () {
 
     if(!session()->has('locale')) {
@@ -21,10 +22,20 @@ Route::get('/', function () {
     } else {
         $lang = session('locale');
     }
-
-
     return view('welcome');
 })->name('welcome');
+
+/* menu */
+Route::get('/menu', function() {
+
+  $path = public_path('pdf/gradimir-komplet.pdf');
+  if(file_exists($path)) {
+    return response()->download($path);
+  }
+  return redirect()->back();
+  
+})->name('menu');
+
 
 /* Switch za jezik */
 Route::get('setlocale/{locale}', function ($locale) {
@@ -36,5 +47,5 @@ Route::get('setlocale/{locale}', function ($locale) {
 })->name('set.locale');
 
 
-Auth::routes();
+Auth::routes(['register' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
